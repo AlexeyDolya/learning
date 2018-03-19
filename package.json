@@ -4,9 +4,12 @@
   "description": "learning js",
   "main": "index.js",
   "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^23.0.0-alpha.0",
     "eslint": "^4.19.0",
     "eslint-plugin-import": "^2.9.0",
-    "eslint-plugin-json": "^1.2.0"
+    "eslint-plugin-json": "^1.2.0",
+    "regenerator-runtime": "^0.11.1"
   },
   "devDependencies": {
     "jest": "^22.4.2"
