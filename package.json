@@ -1,0 +1,27 @@
+{
+  "name": "learning",
+  "version": "1.0.0",
+  "description": "learning js",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^4.19.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-json": "^1.2.0"
+  },
+  "devDependencies": {
+    "jest": "^22.4.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JsDaddy/learning.git"
+  },
+  "author": "JsDaddy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JsDaddy/learning/issues"
+  },
+  "homepage": "https://github.com/JsDaddy/learning#readme"
+}
