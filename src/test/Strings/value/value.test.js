@@ -1,13 +1,9 @@
 import { extractCurrentlyValue } from './value';
 
-test('descript', () => {
-  expect(extractCurrentlyValue('$120')).toBe(120);
-});
-
-test('descript2', () => {
+test('pass 120', () => {
   expect(extractCurrentlyValue('120')).toBe(20);
 });
 
-test('descript3', () => {
+test('pass empty line', () => {
   expect(extractCurrentlyValue('')).toBe(0);
 });
